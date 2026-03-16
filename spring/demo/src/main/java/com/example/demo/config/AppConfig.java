@@ -1,3 +1,6 @@
+package com.example.demo.config;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AppConfig {
     private static AppConfig instance;
