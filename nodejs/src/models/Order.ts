@@ -1,15 +1,13 @@
 import { Beverage } from "../decorator/BeverageDecorator";
 import OrderState, { IOrder } from "../state/OrderState";
 import NewOrderState from "../state/NewOrderState";
+import { PaymentStrategy } from "../strategy/PaymentStrategy";
 
 class Order implements IOrder {
     id: string;
     items: Beverage[];
     private state: OrderState;
-    paymentStrategy: {
-        getName(): string;
-        pay(amount: number): { success: boolean; message: string };
-    } | null;
+    private paymentStrategy: PaymentStrategy | null;
 
     constructor(id: string) {
         this.id = id;
@@ -44,10 +42,7 @@ class Order implements IOrder {
         return this.items.reduce((sum, item) => sum + item.getCost(), 0);
     }
 
-    setPaymentStrategy(strategy: {
-        getName(): string;
-        pay(amount: number): { success: boolean; message: string };
-    }): void {
+    setPaymentStrategy(strategy: PaymentStrategy): void {
         this.paymentStrategy = strategy;
     }
 
