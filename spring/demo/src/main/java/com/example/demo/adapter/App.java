@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demo.adapter;
 
 public class App {
     public static void main(String[] args) {

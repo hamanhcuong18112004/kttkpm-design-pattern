@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demo.adapter;
 
 // Adapter - Chuyen doi giua XML va JSON
 public class XmlToJsonAdapter implements JsonService {

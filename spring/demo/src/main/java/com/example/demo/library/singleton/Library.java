@@ -1,6 +1,6 @@
-package library.singleton;
+package com.example.demo.library.singleton;
 
-import library.factory.Book;
+import com.example.demo.library.factory.Book;
 import java.util.ArrayList;
 import java.util.List;
 

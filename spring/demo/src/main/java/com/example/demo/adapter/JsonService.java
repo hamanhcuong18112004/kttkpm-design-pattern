@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demo.adapter;
 
 // Target Interface - Dich vu web yeu cau JSON
 public interface JsonService {

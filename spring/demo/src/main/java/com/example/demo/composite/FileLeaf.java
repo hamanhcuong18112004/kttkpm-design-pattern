@@ -1,4 +1,4 @@
-package composite;
+package com.example.demo.composite;
 
 // Leaf - Đại diện cho một tập tin
 public class FileLeaf implements FileComponent {

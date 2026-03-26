@@ -1,10 +1,10 @@
-package library;
+package com.example.demo.library;
 
-import library.singleton.Library;
-import library.factory.*;
-import library.strategy.*;
-import library.observer.*;
-import library.decorator.*;
+import com.example.demo.library.singleton.Library;
+import com.example.demo.library.factory.*;
+import com.example.demo.library.strategy.*;
+import com.example.demo.library.observer.*;
+import com.example.demo.library.decorator.*;
 
 public class App {
     public static void main(String[] args) {

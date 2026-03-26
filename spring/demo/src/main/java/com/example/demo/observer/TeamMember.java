@@ -1,4 +1,4 @@
-package observer;
+package com.example.demo.observer;
 
 // ConcreteObserver - Thanh vien nhom
 public class TeamMember implements Observer {

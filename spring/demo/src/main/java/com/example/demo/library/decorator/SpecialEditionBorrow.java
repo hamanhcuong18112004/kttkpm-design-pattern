@@ -1,4 +1,4 @@
-package library.decorator;
+package com.example.demo.library.decorator;
 
 // Concrete Decorator - Yeu cau phien ban dac biet (sach co chu noi, ban dich)
 public class SpecialEditionBorrow extends BorrowDecorator {

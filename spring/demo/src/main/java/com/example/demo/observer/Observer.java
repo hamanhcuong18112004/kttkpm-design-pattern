@@ -1,4 +1,4 @@
-package observer;
+package com.example.demo.observer;
 
 // Observer Interface
 public interface Observer {

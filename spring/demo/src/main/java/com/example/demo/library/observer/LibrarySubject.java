@@ -1,4 +1,4 @@
-package library.observer;
+package com.example.demo.library.observer;
 
 // Subject Interface
 public interface LibrarySubject {

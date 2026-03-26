@@ -1,4 +1,4 @@
-package composite;
+package com.example.demo.composite;
 
 public class App {
     public static void main(String[] args) {

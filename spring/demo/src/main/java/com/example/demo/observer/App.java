@@ -1,4 +1,4 @@
-package observer;
+package com.example.demo.observer;
 
 public class App {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demo.adapter;
 
 // Concrete Target - Dich vu web xu ly JSON
 public class JsonServiceImpl implements JsonService {

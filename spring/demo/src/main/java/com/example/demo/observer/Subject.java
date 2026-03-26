@@ -1,4 +1,4 @@
-package observer;
+package com.example.demo.observer;
 
 // Subject Interface
 public interface Subject {

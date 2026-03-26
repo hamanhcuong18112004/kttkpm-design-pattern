@@ -1,4 +1,4 @@
-package adapter;
+package com.example.demo.adapter;
 
 // Adaptee - He thong cu chi ho tro XML
 public class XmlService {

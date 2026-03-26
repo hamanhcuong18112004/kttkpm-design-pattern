@@ -1,4 +1,4 @@
-package library.decorator;
+package com.example.demo.library.decorator;
 
 // Abstract Decorator
 public abstract class BorrowDecorator implements BorrowService {

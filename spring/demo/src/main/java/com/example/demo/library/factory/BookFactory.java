@@ -1,4 +1,4 @@
-package library.factory;
+package com.example.demo.library.factory;
 
 // Factory Method - Tao cac loai sach
 public class BookFactory {

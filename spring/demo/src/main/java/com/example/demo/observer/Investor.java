@@ -1,4 +1,4 @@
-package observer;
+package com.example.demo.observer;
 
 // ConcreteObserver - Nha dau tu
 public class Investor implements Observer {

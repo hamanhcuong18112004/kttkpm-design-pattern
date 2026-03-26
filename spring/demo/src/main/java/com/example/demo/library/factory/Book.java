@@ -1,4 +1,4 @@
-package library.factory;
+package com.example.demo.library.factory;
 
 // Abstract Product - Lop co so cho tat ca loai sach
 public abstract class Book {

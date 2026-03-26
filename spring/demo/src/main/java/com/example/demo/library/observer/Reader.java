@@ -1,4 +1,4 @@
-package library.observer;
+package com.example.demo.library.observer;
 
 // ConcreteObserver - Nguoi doc / doc gia
 public class Reader implements LibraryObserver {

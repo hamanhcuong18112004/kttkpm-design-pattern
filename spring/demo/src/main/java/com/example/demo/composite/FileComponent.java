@@ -1,4 +1,4 @@
-package composite;
+package com.example.demo.composite;
 
 // Component Interface
 public interface FileComponent {

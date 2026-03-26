@@ -1,4 +1,4 @@
-package library.observer;
+package com.example.demo.library.observer;
 
 // ConcreteObserver - Nhan vien thu vien
 public class Librarian implements LibraryObserver {

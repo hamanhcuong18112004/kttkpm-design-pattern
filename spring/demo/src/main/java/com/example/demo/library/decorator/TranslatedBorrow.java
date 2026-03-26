@@ -1,4 +1,4 @@
-package library.decorator;
+package com.example.demo.library.decorator;
 
 // Concrete Decorator - Sach co ban dich
 public class TranslatedBorrow extends BorrowDecorator {
